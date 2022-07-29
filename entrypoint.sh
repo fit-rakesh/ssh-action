@@ -4,4 +4,4 @@ set -eu
 
 export GITHUB="true"
 
-sh -c "/bin/drone-ssh $*"
+cat /bin/drone-ssh
